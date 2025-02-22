@@ -1,0 +1,1 @@
+This repository demonstrates a subtle JavaScript bug related to type coercion within conditional statements.  The `foo` function attempts to handle various input types (null, undefined, NaN, and numbers), but it doesn't explicitly handle strings, leading to a runtime error. The solution provides a robust way to handle unexpected input types.
